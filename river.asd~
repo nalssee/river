@@ -1,0 +1,4 @@
+(defsystem :river
+  :name "river"
+  :depends-on (:sqlite) 
+  :components ((:file "river")))
